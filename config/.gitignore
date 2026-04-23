@@ -1,0 +1,26 @@
+# --- PRIVATE BUSINESS DATA ---
+# Ignore financial ledgers and inventory sheets
+*ledger*
+*financial*
+*.csv
+*.xlsx
+
+# --- SCRIPTING & AUTOMATION ---
+# Ignore Python/Node temporary files
+__pycache__/
+*.py[cod]
+node_modules/
+
+# --- SECURITY ---
+# Ignore any API keys or tokens for Google Cloud
+.env
+.token
+*.key
+credentials/
+
+# --- MOBILE SYSTEM JUNK ---
+# Ignore Acode and Alpine Linux system files
+.acode/
+.vscode/
+.DS_Store
+

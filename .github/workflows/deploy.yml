@@ -1,0 +1,33 @@
+name: Ghost Deploy to GCP
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write' # Required for Workload Identity Federation
+
+    steps:
+    - name: 'Checkout Logic'
+      uses: 'actions/checkout@v4'
+
+    - name: 'Authenticate to Google Cloud'
+      id: 'auth'
+      uses: 'google-github-actions/auth@v2'
+      with:
+        # REPLACE THE TWO PLACEHOLDERS BELOW
+        workload_identity_provider: 'projects/449906069889/locations/global/workloadIdentityPools/github-pool/providers/github-provider'
+        service_account: 'github-deployer@gen-lang-client-0351311310.iam.gserviceaccount.com'
+
+    - name: 'Deploy Serverless Harvester'
+      run: |
+        gcloud functions deploy sol-savage-harvester \
+          --gen2 \
+          --runtime nodejs20 \
+          --region us-central1 \
+          --trigger-http \
+          --allow-unauthenticated \
+          --entry-point sol-savage-harvester

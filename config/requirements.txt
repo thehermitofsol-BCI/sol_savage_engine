@@ -1,0 +1,6 @@
+Flask==3.0.3
+google-cloud-storage==2.16.0
+google-cloud-aiplatform==1.48.0
+rawpy==0.19.1
+imageio==2.34.0
+psycopg2-binary==2.9.9
