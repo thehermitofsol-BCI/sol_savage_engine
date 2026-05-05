@@ -1,0 +1,26 @@
+master sow
+
+05.03.26
+
+1. Optimize folder and file hierachies in preparation for next phase of 483 asset ledgerization into 116 column heuristic matrix master_source_index.csv
+1a. locate disparate, duplicate, orphaned, redundant hierachies and stitch, delete, or archive into optimizes folder file hiearchy using Termux terminal and linux commands
+
+2. Confirm and optimize github connections
+2a. locating existing repo root
+2b. migrating repo root to /sol_savage_engine
+2c. updating gitignore
+2d. reactivating git reppsitory sync
+
+3. Asses and optimize rclone for mirroring local environment to cloud environment before and after deploying ~/sol_savage_enterprise/sol_savage_brain
+
+4. Redesign beta context window continuity bridge to include prefab text shortcuts in Samsung keyboard, micro SOW (statement of work), design master_sow.md v1, (this document), design notebookLM task to synthetic brain pipeline utilizing micro and master sows as bridges between context windows for achieving continuos consceous and cognitive continuity.
+4a. added 
+"mkdir -p sol_savage_brain/01_SOW_Master \
+sol_savage_brain/02_SOPs_and_Protocols \
+sol_savage_brain/03_Asset_Ledgers \
+sol_savage_brain/04_Strategic_Charters"
+4b. added 
+
+5. progress 483 assets through next phase of ledgerization into 116 vector heuristic matrix and segmentation into layers per Snapdragon SDK and Hexagon NPU for quantization of AI (artificial intelligence) ML (machine learning) LM (language model) into portable x=<8t format: bypassing API processing fees and living as persistent cache within 30mb of device RAM (random access memory)
+
+6. URGENT, SECURITY - Tidy driveway objects into temporary trailer arrangment, EXECUTIVE SPONSOR = CODY (<--- 2x entendre lol, code/cody)

@@ -1,0 +1,25 @@
+A: folder & file hiearchy
+
+~/sol_savage_enterprise
+|___/01_receiving
+|___/config
+|___/ledger
+|___/logs
+|___/nodes_modules
+|___/sol_savage_brain/
+     01_SOW_Master/
+         master_sow.md (Your high-level roadmap)
+     02_SOPs_and_Protocols/
+         sop_v8.2_core.md (The 10.00 Hz alignment and operating rules)
+         msi_heuristic_matrix.md       (Salvage grading and ledger parameters)
+     03_Asset_Ledgers/
+         active_inventory_logs.csv (Where those 483 assets will eventually sit)
+     04_Strategic_Charters/
+         science_center_model.md       (Automated investing/gaming docs)
+         bci_companionship_charter.md  (Cosynchronous architecture notes)
+/sol_savage_engine/<-- (Your GitHub Repo / Code Execution)
+    harvester.loop
+    github_sync_scripts/
+    architecture_assets/
+
+B: best practices
