@@ -19,7 +19,9 @@ master sow
 sol_savage_brain/02_SOPs_and_Protocols \
 sol_savage_brain/03_Asset_Ledgers \
 sol_savage_brain/04_Strategic_Charters"
-4b. added 
+4b. added sop_ebe_v9 to ...brain/02...
+4c. refresh git sync and update the repository url in termux from previous to .../sol_savage_engine
+4d. update rclone scripting 
 
 5. progress 483 assets through next phase of ledgerization into 116 vector heuristic matrix and segmentation into layers per Snapdragon SDK and Hexagon NPU for quantization of AI (artificial intelligence) ML (machine learning) LM (language model) into portable x=<8t format: bypassing API processing fees and living as persistent cache within 30mb of device RAM (random access memory)
 

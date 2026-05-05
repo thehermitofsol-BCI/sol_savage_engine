@@ -23,3 +23,8 @@ A: folder & file hiearchy
     architecture_assets/
 
 B: best practices
+B1: GITHUB 
+B1a: repository url https://...thehermitofsol-BCI/sol_savager_engine
+B1b: repository root
+~/sol_savage_enterprise/sol_savage_engine
+B1c: Pesonal Access Token
